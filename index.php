@@ -7,6 +7,7 @@
     <body>
         <?php
 
+            /*== cargamos el LOGIN==*/
             if(!isset($_GET['vista']) || $_GET['vista']==""){
                 $_GET['vista']="login";
             }

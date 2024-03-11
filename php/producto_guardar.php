@@ -35,7 +35,7 @@
         exit();
     }
 
-    if(verificar_datos("[a-zA-Z]((\.|_|-)?[a-zA-Z0-9]+){3}",$nombre)){
+    if(verificar_datos("^[a-zA-Z\s]+$",$nombre)){
         echo '
             <div class="notification is-danger is-light">
                 <strong>¡Ocurrio un error inesperado!</strong><br>

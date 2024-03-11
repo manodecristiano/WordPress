@@ -7,7 +7,7 @@
 	<?php
 		require_once "./php/main.php";
 $expresion_regular_codigo = "[a-zA-Z]((\.|_|-)?[a-zA-Z0-9]+){3}";
-$expresion_regular_nombre = "[a-zA-Z]((\.|_|-)?[a-zA-Z0-9]+){3}";
+$expresion_regular_nombre = "^[a-zA-Z\s]+$";
 $expresion_regular_precio = "[0-9.]{1,25}";
 $expresion_regular_stock = "[0-9]{1,25}";
 
