@@ -1,4 +1,4 @@
-<div class="main-container">
+<div style="background-image:url('img/assets/404.png');background-size:cover"class="main-container">
 	<section class="hero-body">
 	  	<div class="hero-body">
 		    <p class="title">
